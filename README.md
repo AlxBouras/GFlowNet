@@ -10,4 +10,4 @@ The model training follows the following steps:
 2. Define a policy network taking a state vector as input and returning a vector of probabilities over possible actions. (In the grid domain, there are three possible actions: **Down**, **Right**, and **Terminate**.)
 3. Define a backward policy. In this case, the policy is not estimated but fixed to 0.5 for all parent states (except when there is only one parent state).
 
-Run main.py to start the GFlowNet training and use the model once trained.
+Run **main.py** to start the GFlowNet training and use the model once trained.
